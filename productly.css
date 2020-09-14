@@ -1,0 +1,184 @@
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+   
+
+}header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1px;
+
+    border-radius: 20px;
+}
+
+nav {
+    background-color: orange;
+    flex: 0 0.1 40%;
+    border-radius: 20px;
+   
+}
+
+
+.logo {
+
+    flex: 0 0.1 30%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+    background-color: #ffffff;
+    padding: 5px;
+
+}
+
+button {
+
+
+    border-radius: 15px;
+    padding: 2px;
+    color: purple;
+
+
+}
+
+
+button:hover {
+
+    background-color: blue;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+.divonecontainer {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 5px;
+
+}
+
+.divonewrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.divtwocontainer {
+
+    padding: 20px;
+}
+
+.divtwocontainer h3 {
+
+    text-align: center;
+}
+
+.divtwocontainer div {
+
+    text-align: center;
+
+}
+
+
+.divtwowrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.divthreecontainer {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+
+}
+
+.divfourwrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.divfourcontainer {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+
+}
+
+.divfivewrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.divfivecontainer {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+
+}
+
+.divsixcontainer {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+
+
+}
+
+.divsixwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+p {
+
+    width: 300px;
+
+}
+
+.button1 {
+
+    background-color: orange;
+
+}
